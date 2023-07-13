@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+   int A[3], i;
+   printf("Array Before Insertion:\n");
+   for(i = 0; i < 3; i++)
+      printf("LA[%d] = %d \n", i, A[i]);
+   printf("Inserting Elements.. ");
+   printf("The array elements after insertion :\n"); 
+   for(i = 0; i < 3; i++) {
+      A[i] = i + 2;
+      printf("LA[%d] = %d \n", i, A[i]);
+   }
+   return 0;
+}
